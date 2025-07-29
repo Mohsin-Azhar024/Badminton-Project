@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;	
+	
+}
+
+
+:root{
+	--clr: #F05232;
+	--bigclr: deepskyblue;
+	--smallclr: #0D9E38;
+}
+
+::selection{
+	color: black;
+	background: var(--clr);
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
+
+header{
+	height: 90px;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+
+}
+
+
+
+header ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+
+}
+
+header ul a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+
+
+}
+
+header a img{
+	height: 90px;
+	width: 130px;
+}
+
+
+header ul a:hover{
+	color: var(--clr);
+
+}
+
+.drills_heading h1{
+	padding-top: 11%;
+	padding-bottom: 5%;
+	text-align: center;
+	color: var(--clr);
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+
+.image_drills{
+	height: auto;
+	width: 100vw;
+}
+
+.image_drills a img{
+	height: auto;
+	width: 100vw;
+	object-fit: cover;
+}
+
+
+.main_drills{
+	padding: 2% 8%;
+}
+
+
+.first_heading{
+	text-transform: uppercase;
+	color: var(--bigclr);
+}
+
+
+.two_things{
+	height: auto;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+	
+}
+
+.first{
+	
+	font-size: 18px;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+	padding: 2% 6%;
+	text-align: justify;
+	padding-top: 5%;
+}
+
+
+.second{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.short_pic img{
+	width: 100%;
+}
+
+
+.para{
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 2% 0;
+	text-align: justify;
+}
+
+figure{
+	padding: 2% 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	color:white;
+}
+
+
+.first_footer{
+	margin-top: -20px;
+}
+
+
+.first_footer h1{
+	color: var(--clr);
+	padding-bottom: 17%;
+	text-align: center;
+}
+
+.first_footer p{
+	padding: 12% 10%;
+	margin-top: -25%;
+	text-align: justify;
+}
+
+.first_footer p a{
+	color: white;
+	font-weight: bolder;
+}
+
+
+.first_footer p a:hover{
+	color: var(--clr);
+}
+
+
+.second_footer{
+	margin-top: 18px;
+}
+
+
+.second_footer h1{
+	color: var(--clr);
+	text-align: center;
+	margin-top:-4px;
+}
+
+
+.second_footer p{
+	padding: 5% 3%;
+}
+
+
+.second_footer h3{
+	padding-left: 13px;
+	font-weight: lighter;
+	margin-left: 2px;
+}
+
+
+.second_footer i{
+	padding: 4px;
+}
+
+
+.second_footer p a{
+	color: white;
+	font-weight: bolder;
+}
+
+
+.second_footer p a:hover{
+	color: var(--clr);
+}
+
+
+.third_footer a img{
+	padding:34px;
+}

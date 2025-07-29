@@ -1,0 +1,219 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+
+:root{
+	--clr: #F05232;
+	--bigclr: deepskyblue;
+	--smallclr: #0D9E38;
+}
+
+::selection{
+	color: black;
+	background: var(--clr);
+}
+
+body{
+	height: 100%;
+	width: 100%;
+
+}
+
+
+
+header{
+	height: 90px;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	z-index: 1000;
+}
+
+
+
+header ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+
+}
+
+header ul a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+
+
+}
+
+header a img{
+	height: 90px;
+	width: 130px;
+}
+
+
+header ul a:hover{
+	color: var(--clr);
+
+}
+
+.discription_heading{
+	padding-top: 11%;
+	text-align: center;
+	color:var(--clr);
+
+}
+
+.main_discription{
+	padding: 2% 8%;
+
+}
+
+.main_headings{
+	color: var(--bigclr);
+	text-transform: uppercase; 
+	padding-top: 2%;
+}
+
+.paras{
+	padding: 5px 0px;
+	text-align: justify;
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+
+.mid_image{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.mid_image img{
+	height: auto;
+	width: auto;
+}
+
+.mid_image img figcaption{
+	text-align: center;
+}
+
+
+.second_headings{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 1%;
+	color:var(--smallclr);
+}
+
+
+.black_head{
+	padding: 3% 0;
+	color:var(--smallclr);
+}
+
+.simple_para{
+	margin-top: 1%;
+	padding-left: 3%;
+}
+
+.simple_para ol li{
+	padding: 5px 0px;
+}
+
+.big{
+	margin-top: 2%;
+}
+
+
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	color:white;
+}
+
+
+.first_footer{
+	margin-top: -20px;
+}
+
+
+.first_footer h1{
+	color: var(--clr);
+	padding-bottom: 17%;
+	text-align: center;
+}
+
+.first_footer p{
+	padding: 12% 10%;
+	margin-top: -25%;
+	text-align: justify;
+}
+
+.first_footer p a{
+	color: white;
+	font-weight: bolder;
+}
+
+
+.first_footer p a:hover{
+	color: var(--clr);
+}
+
+
+.second_footer{
+	margin-top: 18px;
+}
+
+
+.second_footer h1{
+	color: var(--clr);
+	text-align: center;
+	margin-top:-4px;
+}
+
+
+.second_footer p{
+	padding: 5% 3%;
+}
+
+
+.second_footer h3{
+	padding-left: 13px;
+	font-weight: lighter;
+	margin-left: 2px;
+}
+
+
+.second_footer i{
+	padding: 4px;
+}
+
+
+.second_footer p a{
+	color: white;
+	font-weight: bolder;
+}
+
+
+.second_footer p a:hover{
+	color: var(--clr);
+}
+
+
+.third_footer a img{
+	padding:34px;
+}

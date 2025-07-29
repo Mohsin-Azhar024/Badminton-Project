@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;	
+
+}
+
+
+:root{
+	--clr: #F05232;
+}
+
+::selection{
+	color: black;
+	background: var(--clr);
+}
+
+body{
+	height: 100%;
+	width: 100%;
+
+}
+
+
+
+header{
+	height: 90px;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+
+}
+
+
+
+header ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+
+}
+
+header ul a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+
+
+}
+
+header a img{
+	height: 90px;
+	width: 130px;
+}
+
+
+header ul a:hover{
+	color: var(--clr);
+
+}
+
+.contact_heading{
+	padding-top: 11%; 
+	text-align: center;
+	color: var(--clr);
+}
+
+
+.main_contact{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 10%;
+}
+
+
+.first_main{
+	background: ;
+	padding: 2% 3%;
+	border-radius: 20px;
+}
+
+
+.first_main h1{
+	color:var(--clr);
+	padding: 4% 0;
+}
+
+
+.first_main p i{
+	color: var(--clr);
+	padding: 2% 10px;
+}
+
+
+	.form_contact{
+		margin: 20px 0;
+		padding: 20px;
+		padding-top: 40px;
+		padding-right: 40px;
+		background: rgba(0,0,0);
+		box-shadow: 3px 3px 3px var(--clr);
+		color:white;
+		display: block;
+		height: 100%;
+		width: 100%;
+		border-radius: 20px;
+
+	}
+
+	.form_contact label{
+		padding:10px;
+		margin-top: 10px;
+		color: var(--clr);
+		font-weight: bolder;
+	}
+
+
+
+	.first_input{
+		width: 240px;
+		height: 40px;
+		padding: 5px;
+		border-radius: 10px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		background: none;	
+		transition: all .6s linear;
+		color: var(--clr);
+		font-size: 16px;
+	}
+
+
+	.first_input:hover{
+		box-shadow: 3px 3px 1px var(--clr);
+	}
+
+
+	.second_input{
+		margin: 15px 0px 15px 13px;
+
+	}
+
+ span{
+			color:var(--clr);
+	}
+
+	.second_input[type='radio']{
+
+	}
+
+	.first_button{
+		padding: 10px 15px;
+		background: none;
+		color: white;
+		margin-top: 10px;
+		margin-left: 10px;
+		font-weight: bolder;
+		border-radius: 6px;
+		box-shadow: 2px 2px 2px  var(--bbg);
+		font-size: 14px;
+	}
+
+	.first_button:hover{
+		color: #000;
+		background: var(--clr);
+		cursor: pointer;
+	}
+
+
+	.first_button i{
+		padding-right: 5px;
+	}
+
+
+	.second_input[type='radio']:checked + span{
+		text-shadow: 3px 2px 3px var(--clr);
+		color: var(--clr);
+	}
+
+
+    .second_input[type='radio']:checked:before {
+        width: 13px;
+        height: 13px;
+        border-radius: 10px;
+        background-color: var(--clr);
+        content: '';
+        display: inline-block;
+    }
+
+
+    ::placeholder{
+    	color: white;
+    	padding-left: 6px;
+    	font-size: 15px;
+    	transition: all .5s linear;
+    }
+
+    :hover::placeholder{
+    	font-size: 13px;
+
+    }
+
+    :focus{
+    	border:2px solid var(--clr);
+    }
+
+
+
+
+
+   footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	color:white;
+}
+
+
+.first_footer{
+	margin-top: -20px;
+}
+
+
+.first_footer h1{
+	color: var(--clr);
+	padding-bottom: 17%;
+	text-align: center;
+}
+
+.first_footer p{
+	padding: 12% 10%;
+	margin-top: -25%;
+	text-align: justify;
+}
+
+.first_footer p a{
+	color: white;
+	font-weight: bolder;
+}
+
+
+.first_footer p a:hover{
+	color: var(--clr);
+}
+
+
+.second_footer{
+	margin-top: 18px;
+}
+
+
+.second_footer h1{
+	color: var(--clr);
+	text-align: center;
+	margin-top:-4px;
+}
+
+
+.second_footer p{
+	padding: 5% 3%;
+}
+
+
+.second_footer h3{
+	padding-left: 13px;
+	font-weight: lighter;
+	margin-left: 2px;
+}
+
+
+.second_footer i{
+	padding: 4px;
+}
+
+
+.second_footer p a{
+	color: white;
+	font-weight: bolder;
+}
+
+
+.second_footer p a:hover{
+	color: var(--clr);
+}
+
+
+.third_footer a img{
+	padding:34px;
+} 

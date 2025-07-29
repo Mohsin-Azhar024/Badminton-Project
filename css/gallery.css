@@ -1,0 +1,192 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+
+:root{
+	--clr: #F05232;
+}
+
+::selection{
+	color: black;
+	background: var(--clr);
+}
+
+body{
+	height: 100%;
+	width: 100%;
+
+}
+
+
+
+header{
+	height: 90px;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	z-index: 1000;
+}
+
+
+
+header ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+
+}
+
+header ul a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+
+
+}
+
+header a img{
+	height: 90px;
+	width: 130px;
+}
+
+
+header ul a:hover{
+	color: var(--clr);
+
+}
+
+
+section{
+	height: auto;
+	width: 100%;
+}
+
+.gallery_heading h1{
+	text-align: center;
+	color: var(--clr);
+	font-size: 40px;
+	padding-top: 12%;
+	padding-bottom: 2%;
+	letter-spacing: 1.5px;
+	transition: all .3s linear;
+}
+
+
+
+.container{
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+	grid-gap: 5px;
+
+}
+
+
+.items{
+	height: auto; 
+	width: 100%;
+}
+
+.items a img{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+	padding: 10px 25px;
+	border-radius: 35px;
+	transition: all .4s linear;
+}
+
+.items a img:hover{
+	transform: scale(1.1);
+
+  /*transform: rotate(360deg);*/
+}
+
+
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	color:white;
+}
+
+
+.first_footer{
+	margin-top: -20px;
+}
+
+
+.first_footer h1{
+	color: var(--clr);
+	padding-bottom: 17%;
+	text-align: center;
+}
+
+.first_footer p{
+	padding: 12% 10%;
+	margin-top: -25%;
+	text-align: justify;
+}
+
+.first_footer p a{
+	color: white;
+	font-weight: bolder;
+}
+
+
+.first_footer p a:hover{
+	color: var(--clr);
+}
+
+
+.second_footer{
+	margin-top: 18px;
+}
+
+
+.second_footer h1{
+	color: var(--clr);
+	text-align: center;
+	margin-top:-4px;
+}
+
+
+.second_footer p{
+	padding: 5% 3%;
+}
+
+
+.second_footer h3{
+	padding-left: 13px;
+	font-weight: lighter;
+	margin-left: 2px;
+}
+
+
+.second_footer i{
+	padding: 4px;
+}
+
+
+.second_footer p a{
+	color: white;
+	font-weight: bolder;
+}
+
+
+.second_footer p a:hover{
+	color: var(--clr);
+}
+
+
+.third_footer a img{
+	padding:34px;
+}
